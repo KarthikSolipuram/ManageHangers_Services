@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Welcome to the Dashboard</h2>
+    <a href="/Front-end/login.html">
+        <div>logout
+        </div>
+    </a>
+    <!-- Hangar Management Section -->
+    <section id="hangar-management">
+        <h3>Manage Hangars</h3>
+        <form id="hangarForm">
+            <input type="text" id="location" placeholder="Location" required>
+            <input type="text" id="size" placeholder="Size (e.g., Large, Medium)" required>
+            <input type="number" id="rentalRate" placeholder="Rental Rate" required>
+            <input type="text" id="facilities" placeholder="Facilities (comma separated)" rows="3"></input>
+            <button type="submit">Add Hangar</button>
+        </form>
+        <div id="hangars">
+            <!-- Hangars will be listed here -->
+        </div>
+    </section>
+
+    <!-- Service Management Section -->
+    <section id="service-management">
+        <h3>Manage Services</h3>
+        <form id="serviceForm">
+            <input type="text" id="serviceTitle" placeholder="Service Title" required>
+            <input type="text" id="serviceDescription" placeholder="Description" rows="3"></input>
+            <input type="number" id="servicePrice" placeholder="Price" required>
+            <button type="submit">Add Service</button>
+        </form>
+        <div id="services">
+            <!-- Services will be listed here -->
+        </div>
+
+    </section>
+
+
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

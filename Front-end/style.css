@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  section {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    color: #444;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea, button {
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #hangars, #services {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .item:last-child {
+    border-bottom: none;
+  }
+  
